@@ -13,8 +13,8 @@ public class TestOne {
 //	public static void main(String[] args)
 	@Test
 	public void OpenBrowser()
-	{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\mursh\\Documents\\Udemy_Selenium\\Selenium\\chromedriver_89\\chromedriver.exe");
+	{	//"C:\\Users\\mursh\\Documents\\Udemy_Selenium\\Selenium\\chromedriver_89\\chromedriver.exe"
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
 		
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("headless");
