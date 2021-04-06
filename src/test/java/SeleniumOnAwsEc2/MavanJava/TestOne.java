@@ -14,7 +14,7 @@ public class TestOne {
 	@Test
 	public void OpenBrowser()
 	{	//"C:\\Users\\mursh\\Documents\\Udemy_Selenium\\Selenium\\chromedriver_89\\chromedriver.exe"
-		System.setProperty("webdriver.chrome.driver", "/usr/bin/google-chrome");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		
 		ChromeOptions options=new ChromeOptions();
 		options.addArguments("headless");
